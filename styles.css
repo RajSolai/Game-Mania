@@ -50,7 +50,7 @@ footer {
 }
 
 .bottom-container {
-  margin-top: 5%;
+  margin-top: 15%;
   padding: 20px 0 10px;
 }
 
@@ -75,4 +75,19 @@ p .copyright {
 
 a:hover {
   color: #eaf6f6;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100vw;
+  }
+  h1 {
+    margin: 0px;
+    font-size: revert;
+  }
+  .menu-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
 }

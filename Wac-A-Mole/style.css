@@ -18,7 +18,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 10rem;
+  font-size: 8rem;
   line-height: 1;
   margin-bottom: 0;
 }
@@ -110,4 +110,9 @@ footer {
 .footer-link {
   color: #11999e;
   margin-right: 20px;
+}
+
+.top-container{
+  align-content: center;
+  text-align: center;
 }
